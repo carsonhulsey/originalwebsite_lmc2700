@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+
+body {
+    font-family: 'Arvo', serif;
+}
+h1 {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    font-size: 50px;
+}
+h1 {
+    font-family: "Georgia", serif;
+    text-align: center;
+}
+nav {
+  display: inline;
+    text-align: center;
+    border: #dd9999 3px solid;
+    padding-top: 15px;
+    padding-bottom: 14px;
+}
+nav a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 100px;
+}
+nav a:hover {
+  background-color: #dd9999;
+  color: black;
+}
+nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    width: 100px;
+}
+p {
+        margin-top: 30px;
+    font-size: 25px;
+    word-break: keep-all;
+} 
+img#mephoto {
+    width: 300px;
+    margin-top: 30px;
+    float: left;
+    margin-right: 30px;
+}
+div#container {
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+img.small {
+    width: 25%;
+    display: inline;
+    margin: 20px;
+}
+p#instagram {
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+}
